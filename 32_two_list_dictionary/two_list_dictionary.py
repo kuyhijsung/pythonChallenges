@@ -15,12 +15,12 @@ def two_list_dictionary(keys, values):
         >>> two_list_dictionary(['a', 'b', 'c'], [1, 2, 3, 4])
         {'a': 1, 'b': 2, 'c': 3}
    """
-   new_dict = {}
-   if len(keys) == len(values):
-       for key in keys:
-           new_dict.keys = key
+    new_dict = {}
+    if len(keys) == len(values):
+        for key in keys:
+            new_dict.keys = key
         for val in values:
-            new_dict.values = values
+            new_dict.values = val
         return new_dict
     elif len(keys) > len(values):
         for key in keys:
